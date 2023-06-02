@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    margin-left: 20px;
+    font-family: "Georgia", serif;
+}
+
+p {
+	font-size: 12px;
+ 	font-family: "Georgia", sans-serif;
+}
+
+img {
+	align-self: center;
+}
+
+.bio {
+	margin-left: 20px;
+	/*width: 500px;*/
+}
+
+.work{
+	margin-left: 20px;
+	/*width: 500px;*/
+}
+
+/* unvisited link */
+a:link {
+    color: green;
+}
+
+/* visited link */
+a:visited {
+    color: olive;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+{
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
